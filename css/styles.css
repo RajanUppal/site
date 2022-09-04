@@ -1,0 +1,201 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+hr{
+    border: dotted #fff 10px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;;
+}
+
+
+.container-fluid{
+  padding: 5% 8%;
+}
+#title .container-fluid{
+  padding: 3% 8%;
+  text-align: left;
+}
+
+
+/* navigation bar */
+
+.navbar{
+  padding-bottom: 5%;
+}
+.navbar-brand{
+  font-family: 'Baloo 2', cursive;
+  font-size: 2rem;
+  padding: 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+/* COLORED OR WHITE */
+
+.colored{
+  background-color: #677de8;
+  color: #fffcf8;
+}
+.white{
+  color: #0C2D48;
+  background-color: #fff;
+}
+
+
+
+/* Header */
+
+.heading{
+  font-family: 'Baloo 2', cursive;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 2.5%;
+}
+.sub-text{
+  font-size: 1.5rem;
+  padding: 0 10%;
+}
+.title-text .sub-text{
+  padding: 0;
+}
+.title-text{
+  padding-top: 2.5%;
+}
+.img-1{
+  text-align: center;
+}
+.color-palette-img{
+  width: 60%;
+}
+
+
+/* CARD & COLORS */
+.card{
+  margin: 10%;
+}
+
+.list-group-item:hover{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.light{
+  color: #000;
+}
+.dark{
+  color: #fff;
+}
+#c1 {background-color: #e5e5e5;}
+#c2 {background-color: #fca311;}
+#c3 {background-color: #14213d;}
+#c4 {background-color: #000000;}
+#c5 {background-color: #FC5185;}
+#c6 {background-color: #F5F5F5;}
+#c7 {background-color: #3FC1C9;}
+#c8 {background-color: #364F6B;}
+#c9 {background-color: #48466D;}
+#c10 {background-color: #3D84A8;}
+#c11 {background-color: #46CDCF;}
+#c12 {background-color: #ABEDD8;}
+#c13 {background-color: #9e2a2b;}
+#c14 {background-color: #e09f3e;}
+#c15 {background-color: #fff3b0;}
+#c16 {background-color: #335c67;}
+#c17 {background-color: #F9F7F7;}
+#c18 {background-color: #DBE2EF;}
+#c19 {background-color: #3F72AF;}
+#c20 {background-color: #112D4E;}
+#c21 {background-color: #fffcf2;}
+#c22 {background-color: #403d39;}
+#c23 {background-color: #252422;}
+#c24 {background-color: #eb5e28;}
+#c25 {background-color: #00B8A9;}
+#c26 {background-color: #F8F3D4;}
+#c27 {background-color: #F6416C;}
+#c28 {background-color: #FFDE7D;}
+#c29 {background-color: #ADD7F2;}
+#c30 {background-color: #29A590;}
+#c31 {background-color: #FF6EA2;}
+#c32 {background-color: #005BCE;}
+#c33 {background-color: #FFDED5;}
+#c34 {background-color: #ACBDC5;}
+#c35 {background-color: #52686A;}
+#c36 {background-color: #314A52;}
+#c37 {background-color: #E1F6F4;}
+#c38 {background-color: #BFE9DB;}
+#c39 {background-color: #6AC1B8;}
+#c40 {background-color: #07588A;}
+#c41 {background-color: #EBEBEB;}
+#c42 {background-color: #F5A25D;}
+#c43 {background-color: #FA7F72;}
+#c44 {background-color: #389393;}
+#c45 {background-color: #F6F5F5;}
+#c46 {background-color: #EE6F57;}
+#c47 {background-color: #1F3C88;}
+#c48 {background-color: #070D59;}
+
+
+/* Theory */
+#theory{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.theory-img{
+  width: 50%;
+}
+
+
+/* TYPES */
+.types-img{
+  width: 20%;
+  padding-bottom: 5%;
+  position: relative;
+  bottom: 30px;
+}
+#types .container-fluid{
+  padding: 0% 8% 5%;
+}
+#type-box.container-fluid{
+  padding: 0;
+}
+.types-heading{
+  padding: 0 15%;
+}
+.types-sub-text{
+  padding: 0 15%;
+}
+
+
+.carousel-inner{
+  padding: 5%;
+}
+.carousel-item{
+  padding: 0 15%;
+}
+.carousel-item .heading{
+  font-size: 2rem;
+  color: #677de8;
+}
+.carousel-item .heading:hover{
+  color: #0C2D48;
+}
+.carousel-item .sub-text{
+  font-size: 1.25rem;
+}
+
+
+
+.footer-icon{
+  margin: 20px 10px;
+}
+
+
+@media (max-width:992px) {
+  #title{
+    text-align: center;
+  }
+}
